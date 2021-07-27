@@ -1,0 +1,286 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+    background-color: #DEF6F3;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    color:inherit;
+ }
+ 
+
+.navigation {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    position: relative;
+    padding: 1%;
+    background-color: #DEF6F3;
+    float: right;
+    font-size: 18px;
+}
+
+.nav-item {
+    display: inline-block;
+    background-color: #DEF6F3;
+    padding: 40px 40px 40px 20px;
+}
+/* nav bar animations */
+div.container {
+    margin: 0 auto;
+
+	text-align: center;
+}
+
+div.container a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #F5867D;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+
+/*body stuff*/
+
+.heroImg {
+    height: 500px;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+.headshot {
+    border-radius: 100%;
+    float: left;
+    padding-right: 20px;
+}
+
+.contentHome {
+    width: 750px;
+    margin: 0 auto;
+    height: 220px;
+    display: flex;
+}
+.contentHome h1 {
+    align-self: flex-end;
+}
+
+span {
+    color: #F5867D;
+}
+
+footer {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.getInTouch {
+    float: left;
+    text-align: left;
+    width: 45%;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+
+.seeMyWork {
+    float: right;
+    text-align: right;
+    width: 45%;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+
+.footer-link-left {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.footer-link-right {
+    display: inline-block;
+    vertical-align: top;
+    text-align: righ;
+}
+
+.copyright {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #74D2C7;
+}
+
+ul {
+    padding-left: 0px;
+    margin-top: 0%;
+}
+
+.myWork {
+    background-color: #ffffff;
+    width: 100%;
+    height: 850px;
+    padding-top: 80px;
+}
+
+.project {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.projectPhoto {
+    width: 300px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.button {
+    background-color: #74D2C7;
+    border: solid #74D2C7 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: white;
+    border-color: #74D2C7;
+    color: #74D2C7;
+}
+ /*About Me*/
+
+.heroAbout {
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.aboutMeImage {
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutMeDescription {
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    vertical-align: baseline;
+    font-size: 18px;
+
+}
+
+.helloThere {
+     margin: auto;
+     padding-bottom: 15px;
+     text-align: center;
+ }
+
+ /*Skills Section*/
+ hr {
+     width: 60%;
+     align-content: center;
+     background-color: #F5867D;
+     height: 2px;
+ }
+
+ .Skills {
+     margin-left: 23%;
+     margin-right: 23%;
+     border-spacing: 1em .5em;
+     padding: 2em 0em 2em 0;
+     border: 1px solid transparent;
+     font-style: 'Karla', sans-serif;
+ }
+
+ .leftCell {
+     padding-right: 30px;
+     border-right: solid 2px black;
+     width: fit-content;
+     text-align: right;
+ }
+
+ .rightCell {
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+
+ .opportunities {
+     font-size: 20px;
+     text-align: center;
+     padding-top: 10px;
+ }
