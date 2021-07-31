@@ -58,13 +58,13 @@ nav {
     padding: 40px 40px 40px 20px;
 }
 /* nav bar animations */
-div.container {
+li.container {
     margin: 0 auto;
 
 	text-align: center;
 }
 
-div.container a {
+li.container a {
     color: black;
     text-decoration: none;
     margin: 0px 10px;
@@ -73,7 +73,7 @@ div.container a {
     z-index: 0;
     cursor: pointer;
 }
-div.borderXwidth a:before, div.borderXwidth a:after
+li.borderXwidth a:before, li.borderXwidth a:after
 {
     position: absolute;
     opacity: 0;
@@ -84,19 +84,19 @@ div.borderXwidth a:before, div.borderXwidth a:after
     transition: all 0.3s;
 }
 
-div.borderXwidth a:before
+li.borderXwidth a:before
 {
     left: 0px;
     top: 0px;
 }
 
-div.borderXwidth a:after
+li.borderXwidth a:after
 {
     right: 0px;
     bottom: 0px;
 }
 
-div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+li.borderXwidth a:hover:before, li.borderXwidth a:hover:after
 {
     opacity: 1;
     width: 100%;
@@ -284,3 +284,4 @@ p {
      text-align: center;
      padding-top: 10px;
  }
+/* Mobile Nav Bar Css*/
